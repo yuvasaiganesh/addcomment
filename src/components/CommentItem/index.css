@@ -1,0 +1,108 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.totalCommentSection {
+  display: flex;
+}
+
+.paragraphName {
+  color: hsl(0, 0%, 0%);
+  font-size: 13px;
+  font-family: 'Roboto';
+  background-color: aqua;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.comment {
+  color: #000000;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.nameAndCommentSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.nameSection {
+  display: flex;
+
+  justify-content: space-around;
+
+  width: 30%;
+}
+
+.likeImageSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likeImage {
+  height: 30px;
+  width: 30px;
+}
+.likeSection {
+  display: flex;
+  justify-content: center;
+}
+
+.likeButton {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 15px;
+  outline: none;
+  border: 0px;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.deleteIcon {
+  height: 30px;
+  width: 30px;
+}
+
+.isLikeButton {
+  font-family: 'Roboto';
+  color: blue;
+  font-size: 15px;
+  outline: none;
+  border: 0px;
+  height: 20px;
+}

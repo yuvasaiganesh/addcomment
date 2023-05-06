@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 30px;
+}
+.formAndImage {
+  display: flex;
+
+  justify-content: space-between;
+  height: 250px;
+}
+.comment-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
+.paragraph1 {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 20px;
+}
+.input1 {
+  height: 10%;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.input2 {
+  height: 60%;
+  width: 60%;
+  border-radius: 5px;
+}
+.commentImage {
+  height: 100%;
+  width: 60%;
+}
+.button {
+  height: 30px;
+  width: 120px;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 5px;
+}
+.paragraph2 {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  background-color: blue;
+  border-radius: 5px;
+  min-width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph3 {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 15px;
+}
+
+.countSection {
+  display: flex;
+  justify-content: space-around;
+  width: 10%;
+}
