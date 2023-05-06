@@ -18,14 +18,7 @@ const initialContainerBackgroundClassNames = [
 
 class Comments extends Component {
   state = {
-    commentsList: {
-      id: v4(),
-      name: 'ram',
-      comment: 'good',
-      isLike: false,
-      date: new Date(),
-      backgroundClassName: '',
-    },
+    commentsList: ,
     name: '',
     comment: '',
     count: 0,
@@ -134,11 +127,14 @@ class Comments extends Component {
         </div>
 
         <ul className="comments-table">
-          <CommentItem
-            commentDetails={commentsList}
-            toggleIsLike={this.toggleIsLike}
-            deleteButton={this.toDelete}
-          />
+          {commentsList.map(eachItem => (
+            <CommentItem
+              key={eachItem.id}
+              commentDetails={eachItem}
+              toggleIsLike={this.toggleIsLike}
+              deleteButton={this.toDelete}
+            />
+          ))}
         </ul>
       </div>
     )
