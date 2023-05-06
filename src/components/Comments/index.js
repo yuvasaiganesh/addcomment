@@ -18,7 +18,7 @@ const initialContainerBackgroundClassNames = [
 
 class Comments extends Component {
   state = {
-    commentsList: ,
+    commentsList:"" ,
     name: '',
     comment: '',
     count: 0,
