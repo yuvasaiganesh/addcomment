@@ -18,7 +18,7 @@ const initialContainerBackgroundClassNames = [
 
 class Comments extends Component {
   state = {
-    commentsList:"" ,
+    commentsList:[] ,
     name: '',
     comment: '',
     count: 0,
@@ -54,7 +54,7 @@ class Comments extends Component {
 
     const initialContainerBackgroundClassName =
       initialContainerBackgroundClassNames[
-        Math.ceil(Math.random().initialContainerBackgroundClassNames.length - 1)
+        Math.ceil(Math.random()*initialContainerBackgroundClassNames.length - 1)
       ]
     const newComment = {
       id: v4(),
@@ -100,7 +100,7 @@ class Comments extends Component {
                 className="input1"
                 placeholder="Your Name"
               />
-              <input
+              <textarea
                 className="input2"
                 value={comment}
                 onChange={this.onChangeComment}
